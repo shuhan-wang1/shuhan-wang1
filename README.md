@@ -4,9 +4,9 @@
 
 <br>
 
-**MSc Artificial Intelligence · University College London**
+**MSc Machine Learning · University College London**
 
-<sub>Training lightweight routers that learn to direct queries to the right LLM — balancing cost, latency, and quality.</sub>
+<sub>Continual RL with world models, post-training quantization, and agentic systems.</sub>
 
 <br><br>
 
@@ -20,15 +20,15 @@
 
 ### `> about`
 
-MSc student at UCL focused on **LLM routing** and **reinforcement learning**. My work explores how to intelligently route queries across model tiers, how world models like DreamerV3 can improve long-horizon planning, and how post-training quantization can make large models deployable at the edge. I also build agentic coding tools.
+MSc Machine Learning student at UCL focused on **reinforcement learning** and **world models**. My research extends DreamerV3 with continual learning and autocurricula for open-ended environments. I also work on **post-training quantization** for LLM compression and build agentic tools that bridge ML with interactive applications.
 
 <br>
 
 ### `> research`
 
-![LLM Routing](https://img.shields.io/badge/LLM_Routing-00ADB5?style=flat-square)
-![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-222831?style=flat-square)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-00ADB5?style=flat-square)
 ![World Models](https://img.shields.io/badge/World_Models_(DreamerV3)-222831?style=flat-square)
+![Continual Learning](https://img.shields.io/badge/Continual_Learning-222831?style=flat-square)
 ![Post-Training Quantization](https://img.shields.io/badge/Post--Training_Quantization-222831?style=flat-square)
 ![Agentic Coding](https://img.shields.io/badge/Agentic_Coding-00ADB5?style=flat-square)
 
@@ -40,58 +40,75 @@ MSc student at UCL focused on **LLM routing** and **reinforcement learning**. My
 <tr>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/shuhan-wang1/llm-router">llm-router</a></h4>
+<h4><a href="https://github.com/shuhan-wang1/continual-dreamerv3-autocurricula">continual-dreamerv3-autocurricula</a></h4>
 
-Adaptive routing framework for directing queries to the optimal LLM based on task complexity, latency, and cost.
+Extending DreamerV3 with continual learning and novelty-driven replay for open-ended RL in Craftax — 67 achievements, zero forgetting.
 
-`Python` `PyTorch` `Transformers`
+`JAX` `Flax` `DreamerV3` `W&B`
 
 </td>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/shuhan-wang1/dreamer-experiments">dreamer-experiments</a></h4>
+<h4><a href="https://github.com/shuhan-wang1/SNLP_DarterflyQuant">DarterflyQuant</a></h4>
 
-DreamerV3 world model reproductions and extensions across diverse RL environments.
+Unified INT4/NF4 post-training quantization framework for LLMs with learnable Butterfly rotations and 12-step pipeline.
 
-`Python` `JAX` `RL`
+`PyTorch` `Transformers` `Quantization`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/shuhan-wang1/ptq-toolkit">ptq-toolkit</a></h4>
+<h4><a href="https://github.com/shuhan-wang1/FeynmanForge">FeynmanForge</a></h4>
 
-Post-training quantization toolkit for compressing LLMs with minimal accuracy loss.
+Interactive particle physics platform — Feynman diagram editor with AI generation, plus a deep RL agent (GCPN) that discovers conservation laws autonomously.
 
-`Python` `PyTorch` `GPTQ` `AWQ`
+`PyTorch` `PPO` `JavaScript` `Canvas`
 
 </td>
 <td width="50%" valign="top">
 
-<h4><a href="https://github.com/shuhan-wang1/agent-bench">agent-bench</a></h4>
+<h4><a href="https://github.com/shuhan-wang1/Anamnesis">Anamnesis</a></h4>
 
-Benchmarking framework for evaluating agentic coding systems on real-world SWE tasks.
+Spaced-repetition study app that parses LaTeX notes into a knowledge graph with adaptive RL question selection via Thompson Sampling.
 
-`Python` `Evaluation` `LLMs`
+`Flask` `D3.js` `KaTeX` `FSRS`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h4><a href="https://github.com/shuhan-wang1/uk_rent_recommendation">uk_rent_recommendation</a></h4>
+
+AI rental assistant for UK students — LangGraph agent with RAG, semantic search, crime stats, and interactive map recommendations.
+
+`LangGraph` `Flask` `FAISS` `ChromaDB`
+
+</td>
+<td width="50%" valign="top">
+
+<br>
+
+[![See All Repositories](https://img.shields.io/badge/See_All_Repos_%E2%86%92-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shuhan-wang1?tab=repositories)
 
 </td>
 </tr>
 </table>
 
-<!-- Replace the project names, links, and descriptions above with your actual repositories -->
-
 ---
 
 ### `> stack`
 
-**Languages & ML**
+**ML & Frameworks**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![JAX](https://img.shields.io/badge/JAX-A8B9CC?style=flat-square&logo=google&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
 **Infrastructure**
 
@@ -99,7 +116,7 @@ Benchmarking framework for evaluating agentic coding systems on real-world SWE t
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![W&B](https://img.shields.io/badge/W%26B-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
 ---
 
