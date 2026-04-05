@@ -122,18 +122,14 @@ AI rental assistant for UK students — LangGraph agent with RAG, semantic searc
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shuhan-wang1&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ADB5&icon_color=00ADB5&text_color=c9d1d9&ring_color=00ADB5" height="170" />
-&nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com?user=shuhan-wang1&hide_border=true&background=0D1117&ring=00ADB5&fire=00ADB5&currStreakLabel=00ADB5&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" height="170" />
+![Repos](https://img.shields.io/badge/dynamic/json?logo=github&logoColor=white&label=repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshuhan-wang1&style=flat-square&color=161b22&labelColor=00ADB5)
+&nbsp;
+![Followers](https://img.shields.io/github/followers/shuhan-wang1?style=flat-square&color=161b22&labelColor=00ADB5&logo=github&logoColor=white)
+&nbsp;
+![Stars](https://img.shields.io/github/stars/shuhan-wang1?style=flat-square&color=161b22&labelColor=00ADB5&logo=github&logoColor=white&affiliations=OWNER)
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shuhan-wang1&bg_color=0d1117&color=00ADB5&line=00ADB5&point=c9d1d9&area=true&hide_border=true" width="95%" />
-
-</div>
-
----
-
-<div align="center">
 <sub>Open to research collaborations and conversations about ML systems.</sub>
+
 </div>
