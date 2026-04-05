@@ -101,22 +101,9 @@ AI rental assistant for UK students — LangGraph agent with RAG, semantic searc
 
 ### `> stack`
 
-**ML & Frameworks**
-
-![Python](https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-161b22?style=flat-square&logo=pytorch&logoColor=white)
-![JAX](https://img.shields.io/badge/JAX-161b22?style=flat-square&logo=google&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-161b22?style=flat-square&logo=huggingface&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-161b22?style=flat-square&logo=langchain&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-161b22?style=flat-square&logo=flask&logoColor=white)
-
-**Infrastructure**
-
-![Docker](https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-161b22?style=flat-square&logo=git&logoColor=white)
-![W&B](https://img.shields.io/badge/W%26B-161b22?style=flat-square&logo=weightsandbiases&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-161b22?style=flat-square&logo=nvidia&logoColor=white)
+<div align="center">
+<img src="https://skillicons.dev/icons?i=py,pytorch,flask,js,tailwind,docker,linux,git,github,vscode&theme=dark" alt="Tech Stack" />
+</div>
 
 ---
 
@@ -129,6 +116,14 @@ AI rental assistant for UK students — LangGraph agent with RAG, semantic searc
 ![Stars](https://img.shields.io/github/stars/shuhan-wang1?style=flat-square&color=161b22&labelColor=00ADB5&logo=github&logoColor=white&affiliations=OWNER)
 
 <br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shuhan-wang1/shuhan-wang1/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shuhan-wang1/shuhan-wang1/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/shuhan-wang1/shuhan-wang1/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+<br>
 
 <sub>Open to research collaborations and conversations about ML systems.</sub>
 
