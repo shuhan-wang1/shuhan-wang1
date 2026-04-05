@@ -27,9 +27,9 @@ MSc Machine Learning student at UCL focused on **reinforcement learning** and **
 ### `> research`
 
 ![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-00ADB5?style=flat-square)
-![World Models](https://img.shields.io/badge/World_Models_(DreamerV3)-222831?style=flat-square)
-![Continual Learning](https://img.shields.io/badge/Continual_Learning-222831?style=flat-square)
-![Post-Training Quantization](https://img.shields.io/badge/Post--Training_Quantization-222831?style=flat-square)
+![World Models](https://img.shields.io/badge/World_Models_(DreamerV3)-00ADB5?style=flat-square)
+![Continual Learning](https://img.shields.io/badge/Continual_Learning-00ADB5?style=flat-square)
+![Post-Training Quantization](https://img.shields.io/badge/Post--Training_Quantization-00ADB5?style=flat-square)
 ![Agentic Coding](https://img.shields.io/badge/Agentic_Coding-00ADB5?style=flat-square)
 
 ---
@@ -103,20 +103,20 @@ AI rental assistant for UK students — LangGraph agent with RAG, semantic searc
 
 **ML & Frameworks**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![JAX](https://img.shields.io/badge/JAX-A8B9CC?style=flat-square&logo=google&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Python](https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-161b22?style=flat-square&logo=pytorch&logoColor=white)
+![JAX](https://img.shields.io/badge/JAX-161b22?style=flat-square&logo=google&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-161b22?style=flat-square&logo=huggingface&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-161b22?style=flat-square&logo=langchain&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-161b22?style=flat-square&logo=flask&logoColor=white)
 
 **Infrastructure**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![W&B](https://img.shields.io/badge/W%26B-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=white)
+![Git](https://img.shields.io/badge/Git-161b22?style=flat-square&logo=git&logoColor=white)
+![W&B](https://img.shields.io/badge/W%26B-161b22?style=flat-square&logo=weightsandbiases&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-161b22?style=flat-square&logo=nvidia&logoColor=white)
 
 ---
 
