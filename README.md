@@ -10,8 +10,6 @@
 
 <br><br>
 
-[![GitHub](https://img.shields.io/badge/shuhan--wang1-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shuhan-wang1)
-&nbsp;&nbsp;
 ![Views](https://komarev.com/ghpvc/?username=shuhan-wang1&color=00ADB5&style=flat-square&label=views)
 
 </div>
@@ -20,7 +18,19 @@
 
 ### `> about`
 
-MSc Machine Learning student at UCL focused on **reinforcement learning** and **world models**. My research extends DreamerV3 with continual learning and autocurricula for open-ended environments. I also work on **post-training quantization** for LLM compression and build agentic tools that bridge ML with interactive applications.
+MSc Machine Learning at **UCL**, focused on **reinforcement learning** and **world models**.
+Extending DreamerV3 with continual learning & autocurricula for open-ended environments.
+Also working on **post-training quantization** for LLMs and **agentic tools** that bridge ML with interactive apps.
+
+<br>
+
+### `> currently`
+
+```text
+▸ extending DreamerV3 with novelty-driven replay on Craftax — 67 achievements, zero forgetting
+▸ unified INT4/NF4 quantization framework with learnable Butterfly rotations
+▸ exploring autocurricula and open-ended skill acquisition
+```
 
 <br>
 
@@ -78,7 +88,7 @@ Spaced-repetition study app that parses LaTeX notes into a knowledge graph with 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
 <h4><a href="https://github.com/shuhan-wang1/uk_rent_recommendation">uk_rent_recommendation</a></h4>
 
@@ -87,35 +97,45 @@ AI rental assistant for UK students — LangGraph agent with RAG, semantic searc
 `LangGraph` `Flask` `FAISS` `ChromaDB`
 
 </td>
-<td width="50%" valign="top">
-
-<br>
-
-[![See All Repositories](https://img.shields.io/badge/See_All_Repos_%E2%86%92-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/shuhan-wang1?tab=repositories)
-
-</td>
 </tr>
 </table>
+
+<p align="right">
+<a href="https://github.com/shuhan-wang1?tab=repositories"><img src="https://img.shields.io/badge/See_All_Repos_%E2%86%92-181717?style=flat-square&logo=github&logoColor=white" alt="See All Repos" /></a>
+</p>
 
 ---
 
 ### `> stack`
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,pytorch,flask,js,tailwind,docker,linux,git,github,vscode&theme=dark" alt="Tech Stack" />
+<img src="https://skillicons.dev/icons?i=py,pytorch,flask,js,tailwind,docker,linux,git,github,vscode,latex,bash&theme=dark" alt="Tech Stack" />
 </div>
+
+<br>
+
+<p align="center">
+<img src="https://img.shields.io/badge/JAX-5E2CA5?style=flat-square&logoColor=white" alt="JAX" />&nbsp;
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />&nbsp;
+<img src="https://img.shields.io/badge/W%26B-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black" alt="Weights & Biases" />&nbsp;
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+</p>
 
 ---
 
+### `> stats`
+
 <div align="center">
 
-![Repos](https://img.shields.io/badge/dynamic/json?logo=github&logoColor=white&label=repos&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshuhan-wang1&style=flat-square&color=161b22&labelColor=00ADB5)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=shuhan-wang1&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ADB5&icon_color=00ADB5&text_color=c9d1d9&hide=issues&cache_seconds=86400" alt="GitHub Stats" />
 &nbsp;
-![Followers](https://img.shields.io/github/followers/shuhan-wang1?style=flat-square&color=161b22&labelColor=00ADB5&logo=github&logoColor=white)
-&nbsp;
-![Stars](https://img.shields.io/github/stars/shuhan-wang1?style=flat-square&color=161b22&labelColor=00ADB5&logo=github&logoColor=white&affiliations=OWNER)
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shuhan-wang1&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ADB5&text_color=c9d1d9&langs_count=8&cache_seconds=86400" alt="Top Languages" />
 
-<br><br>
+</div>
+
+<br>
+
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shuhan-wang1/shuhan-wang1/output/github-snake-dark.svg" />
