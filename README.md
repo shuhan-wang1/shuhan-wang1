@@ -44,68 +44,6 @@ Also working on **post-training quantization** for LLMs and **agentic tools** th
 
 ---
 
-### `> projects`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h4><a href="https://github.com/shuhan-wang1/continual-dreamerv3-autocurricula">continual-dreamerv3-autocurricula</a></h4>
-
-Extending DreamerV3 with continual learning and novelty-driven replay for open-ended RL in Craftax — 67 achievements, zero forgetting.
-
-`JAX` `Flax` `DreamerV3` `W&B`
-
-</td>
-<td width="50%" valign="top">
-
-<h4><a href="https://github.com/shuhan-wang1/SNLP_DarterflyQuant">DarterflyQuant</a></h4>
-
-Unified INT4/NF4 post-training quantization framework for LLMs with learnable Butterfly rotations and 12-step pipeline.
-
-`PyTorch` `Transformers` `Quantization`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h4><a href="https://github.com/shuhan-wang1/FeynmanForge">FeynmanForge</a></h4>
-
-Interactive particle physics platform — Feynman diagram editor with AI generation, plus a deep RL agent (GCPN) that discovers conservation laws autonomously.
-
-`PyTorch` `PPO` `JavaScript` `Canvas`
-
-</td>
-<td width="50%" valign="top">
-
-<h4><a href="https://github.com/shuhan-wang1/Anamnesis">Anamnesis</a></h4>
-
-Spaced-repetition study app that parses LaTeX notes into a knowledge graph with adaptive RL question selection via Thompson Sampling.
-
-`Flask` `D3.js` `KaTeX` `FSRS`
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-<h4><a href="https://github.com/shuhan-wang1/uk_rent_recommendation">uk_rent_recommendation</a></h4>
-
-AI rental assistant for UK students — LangGraph agent with RAG, semantic search, crime stats, and interactive map recommendations.
-
-`LangGraph` `Flask` `FAISS` `ChromaDB`
-
-</td>
-</tr>
-</table>
-
-<p align="right">
-<a href="https://github.com/shuhan-wang1?tab=repositories"><img src="https://img.shields.io/badge/See_All_Repos_%E2%86%92-181717?style=flat-square&logo=github&logoColor=white" alt="See All Repos" /></a>
-</p>
-
----
-
 ### `> stack`
 
 <div align="center">
@@ -127,9 +65,9 @@ AI rental assistant for UK students — LangGraph agent with RAG, semantic searc
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=shuhan-wang1&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ADB5&icon_color=00ADB5&text_color=c9d1d9&hide=issues&cache_seconds=86400" alt="GitHub Stats" />
+<img height="165" src="https://raw.githubusercontent.com/shuhan-wang1/shuhan-wang1/stats/stats.svg" alt="GitHub Stats" />
 &nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shuhan-wang1&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ADB5&text_color=c9d1d9&langs_count=8&cache_seconds=86400" alt="Top Languages" />
+<img height="165" src="https://raw.githubusercontent.com/shuhan-wang1/shuhan-wang1/stats/top-langs.svg" alt="Top Languages" />
 
 </div>
 
