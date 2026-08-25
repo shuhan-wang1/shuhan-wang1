@@ -55,7 +55,7 @@ query($login: String!) {
       totalCount
       nodes {
         name
-        stargazers { totalCount }
+        stargazerCount
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
           edges { size node { name color } }
         }
@@ -69,9 +69,12 @@ query($login: String!) {
 def fetch():
     body = json.dumps({"query": QUERY, "variables": {"login": LOGIN}}).encode()
     res = api("https://api.github.com/graphql", body)
-    if "errors" in res:
-        raise RuntimeError(res["errors"])
-    user = res["data"]["user"]
+    user = (res.get("data") or {}).get("user")
+    if res.get("errors"):
+        # GITHUB_TOKEN can't read every field; keep going if we still got the user.
+        print("GraphQL warnings:", json.dumps(res["errors"])[:2000], file=sys.stderr)
+    if not user:
+        raise RuntimeError(f"GraphQL returned no user: {res}")
 
     # All-time commit count (same approach as github-readme-stats' include_all_commits)
     try:
@@ -81,13 +84,18 @@ def fetch():
         cc = user["contributionsCollection"]
         commits = cc["totalCommitContributions"] + cc["restrictedContributionsCount"]
 
-    repos = user["repositories"]["nodes"]
-    stars = sum(r["stargazers"]["totalCount"] for r in repos)
+    repos = [r for r in user["repositories"]["nodes"] if r]
+    if all(r.get("stargazerCount") is not None for r in repos):
+        stars = sum(r["stargazerCount"] for r in repos)
+    else:
+        # Fallback: public REST listing works with any token
+        rest = api(f"https://api.github.com/users/{LOGIN}/repos?per_page=100&type=owner")
+        stars = sum(r["stargazers_count"] for r in rest if not r["fork"])
 
     langs = {}
     colors = {}
     for r in repos:
-        for e in r["languages"]["edges"]:
+        for e in ((r.get("languages") or {}).get("edges") or []):
             n = e["node"]["name"]
             langs[n] = langs.get(n, 0) + e["size"]
             colors[n] = e["node"]["color"] or TITLE
